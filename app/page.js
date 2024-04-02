@@ -10,10 +10,9 @@ const Home = () => {
     return (
         <div> 
         <h1>useRouter</h1>
-        <Link href='/projects'>Projects</Link><br />
-        <button onClick={() => navigate('about')}>Go to About Page</button><br /> 
-        <button onClick={() => navigate('login')}>Go to Login Page</button>
-
+        <h3>For adding user, update user, delete user, search for specific user click on below link</h3>
+        <button onClick={() => navigate('users')}>Click Here</button>
+            
         </div>
     );
 }
